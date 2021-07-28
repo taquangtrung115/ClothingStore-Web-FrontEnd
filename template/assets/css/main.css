@@ -587,7 +587,51 @@
 
 
 
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #222;
+  border-color: #ccc;
+}
 
-
+.pagination>li>a, .pagination>li>span {
+  position: relative;
+  float: left;
+  padding: 10px 16.1px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #666;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
 
 /* Tool Bar product */
+
+/* Detail Product */
+.card__detail-product-img-top{
+  max-height: 750px;
+  height: auto;
+  object-fit: cover;
+}
+.card__detail-product-list{
+  list-style: none;
+  display: flex;
+  margin-top: 4px;
+}
+.card__detail-product-item{
+  border:1px solid #ccc;
+  margin-left: 10px;
+}
+.card__detail-product-item:first-child{}
+.card__detail-product-img{
+  object-fit: cover;
+  max-width: 84px;
+  max-height: 105px;
+}
+
+.card__detail-product-item--active{
+  border:1px solid #000;
+}
+/* Detail Product */
