@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/base.css" />
+
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="./assets/font/fonta wesome-free-5.15.3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3/css/all.min.css">
+  <link rel="icon" href="./assets/font/themify-icons/SVG/shopping-cart-full.svg" type="image/gif" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <title>Coins </title>
+</head>
+
+<body>
+  <!-- Header Menu -->
+  <nav class="navbar header_menu">
+    <div class="container ">
+      <div class="navbar-header" style="transform: translateY(-35%);">
+        <a class="navbar-brand" href="index.html">
+
+          <img src="./assets/img/logo.png" alt="logo">
+        </a>
+      </div>
+      <ul class="nav navbar-nav  nav-bar__custom-position ">
+        <li class="h4 "><a class="text-dark" href="#">TRANG CHỦ</a></li>
+
+        <li class="dropdown h4"><a href="#">TẤT CẢ SẢN PHẨM</a>
+
+          <ul class="dropdown-content">
+            <li class="dropdown-item"><a href="#">ÁO</a></li>
+            <li class="dropdown-item"><a href="#">QUẦN</a></li>
+            <li class="dropdown-item"><a href="#">PHỤ KIỆN</a></li>
+          </ul>
+
+
+        </li>
+        <li class="h4"><a href="./Pages/Lien_He.html">LIÊN HỆ</a></li>
+        <li class="h4"><a href="./Pages/About.html">VỀ CHÚNG TÔI</a></li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right  nav-bar__custom-position-selector">
+        <li class="h3 nav__selector-search"><a href="#"> <span class="header__selector-icon fas fa-search"></span></a>
+          <div class="nav__selector-search-content">
+            <form action="#" class="nav__selector-search-form-control">
+              <input type="text" class="nav__selector-search-input" placeholder="Bạn đang tìm...">
+              <input type="submit" class="nav__selector-search-btn" value="Tìm kiếm">
+            </form>
+          </div>
+        </li>
+        <li class="h3"><a href="./Pages/Dang_Nhap_Dang_Ky.html"> <span class="header__selector-icon fas fa-user"></span></a></li>
+        <li class="h3 nav__selector-bag"><a href="./Pages/Gio_Hang.html"> <span class="header__selector-icon fas fa-shopping-bag">
+              <span class="nav__selector-bag-number">0</span>
+            </span></a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Header Menu -->
+  
+<!-- Login_SignUp -->
+<div class="container" style="padding: 150px 0 250px 0px;">
+  <div class="row">
+    <div class="col-lg-6">
+      <form action="#">
+        <div class="form-group ">
+          <h5 class="text-center">ĐĂNG NHẬP</h5>
+        </div>
+        <div class="form-group">
+        
+          <input type="tel" class="form-control" id="form__SoDienThoai" placeholder="Số điện thoại" required>
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="form_MatKhau" placeholder="Mật khẩu" required>
+        </div>
+       <div class="form-group">
+         
+        <button type="submit" class="btn btn-default btn__signIn" style="width: 100%;border:1px solid rgb(133, 124, 124)">Đăng Nhập</button>
+       </div>
+       <div class="form-group ">
+        <h6 class="text-center"><a href="#" style="color:#666"> Quên mật khẩu?</a></h6>
+      </div>
+      <div class="form-group ">
+        <h4 class="text-center"><a href="./Khach_Hang.html" style="color:#666">Chức Năng Đã Đăng Nhập</a></h4>
+      </div>
+      </form>
+    </div>
+    <div class="col-lg-6">
+      <form action="#">
+        <div class="form-group ">
+          <h5 class="text-center">ĐĂNG KÝ THÀNH VIÊN MỚI</h5>
+        </div>
+        <!--  -->
+        <div class="form-group">
+          <input type="text" class="form-control" id="form__Ho" placeholder="Họ" required>
+        </div>
+        <!--  -->
+        <div class="form-group">
+          <input type="text" class="form-control" id="form__Ten" placeholder="Tên" required>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="form-group">
+          <input type="text" class="form-control" id="form__Email" placeholder="Email" required>
+        </div>
+        <!--  -->
+        <div class="form-group">
+          <input type="tel" class="form-control" id="form_SoDienThoai-SignUp" placeholder="Số điện thoại" required>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="form-group">
+          <input type="password" class="form-control" id="form__MatKhau-SignUp" placeholder="Mật khẩu" required>
+        </div>
+        <!--  -->
+       <div class="form-group">
+         
+        <button type="submit" class="btn btn-default btn__signIn" style="width: 100%;border:1px solid #ccc">Đăng Ký</button>
+       </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Login_SignUp -->
+
+  <!-- CONTACT -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="container__contact">
+          <i class="container__contact-icon fas fa-phone-square-alt"></i>
+          <p class="container__contact-heading">Hỗ trợ / Mua hàng: <span>0933 800 190</span></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- CONTACT -->
+  <!-- FOOTER -->
+  <footer class="container ">
+    <div class="col-lg-4">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/logo.png" alt="">
+      </a>
+    </div>
+    <div class="col-lg-4">
+      <h3 class="footer__heading">HỆ THỐNG CỬA HÀNG</h3>
+
+      <ul class="footer__list-contact">
+        <li class="footer__item-contact">
+          <div class="footer__item-content">
+            <i class="footer__item-content-icon fas fa-map-marker-alt"></i>
+            <p class="footer__text">520 Phan Văn Trị, P7 , Quận 5 , TP.HCM</p>
+          </div>
+        </li>
+        <li class="footer__item-contact">
+          <div class="footer__item-content">
+            <i class="footer__item-content-icon fas fa-map-marker-alt"></i>
+            <p class="footer__text">1220 Quang Trung, P12 , Quận Gò Vấp , TP.HCM</p>
+          </div>
+        </li>
+        <li class="footer__item-contact">
+          <div class="footer__item-content">
+            <i class="footer__item-content-icon fas fa-phone"></i>
+            <p class="footer__text"> 0919999325</p>
+          </div>
+        </li>
+        <li class="footer__item-contact">
+          <div class="footer__item-content">
+            <i class="footer__item-content-icon fas fa-envelope"></i>
+            <p class="footer__text"> admin@loganstore.vn</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-4">
+      <h3 class="footer__heading">THEO DÕI CỬA HÀNG</h3>
+      <div class="row">
+        <div class="col">
+          <ul class="footer__social-list">
+            <li class="footer__social-item"><a href="#" class="footer__social-link">
+                <i class="footer__social-icon fab fa-facebook-f"></i>
+              </a></li>
+            <li class="footer__social-item"><a href="#" class="footer__social-link">
+                <i class="footer__social-icon fab fa-instagram"></i>
+              </a></li>
+            <li class="footer__social-item"><a href="#" class="footer__social-link">
+                <i class="footer__social-icon fab fa-tiktok"></i>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <iframe
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=257186769542476"
+            width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER -->
+  <!-- COPPY RIGHT -->
+ 
+  <div class="container-fluid">
+    <div class="row" style="background-color: #f1f1f1;border-top:1px solid #ccc">
+      <div class="col">
+        <h4 class="footer__coppy-right">
+          Copyright © 2020 Coins Studio. Powered by Team
+        </h4>
+      </div>
+    </div>
+  </div>
+  <!-- COPPY RIGHT -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

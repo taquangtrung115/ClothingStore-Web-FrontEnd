@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/responsive.css" />
+  <link rel="stylesheet" href="/assets/css/grid.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="/assets/font/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="/assets/font/fonta wesome-free-5.15.3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/font/fontawesome-free-5.15.3/css/all.min.css">
+  <link rel="icon" href="/assets/font/themify-icons/SVG/shopping-cart-full.svg" type="image/gif" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <title>Logan Clothing Store</title>
+</head>
+
+<body>
+  <div class="main">
+    <header class="header">
+      <div class="grid ">
+        <div class="row">
+          <div class="col l-2">
+            <a href="#" class="header__logo-link"><img src="/assets/img/logo.png" alt="logo"
+                class="header__logo-img"></a>
+          </div>
+          <div class="col l-8">
+            <nav>
+              <ul class="header__menu-list">
+                <li class="header__menu-item"><a href="#" class="header__menu-link">TRANG CHỦ</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">SẢN PHẨM</a>
+                  <nav class="subnav">
+                    <ul class="header__product-list">
+                      <li class="header__product-item"><a href="DanhMucSanPham.html" class="header__product-link">Áo sơ
+                          mi</a></li>
+                      <li class="header__product-item"><a href="#" class="header__product-link">Áo thun</a></li>
+                      <li class="header__product-item"><a href="#" class="header__product-link">Quần Jean</a></li>
+                    </ul>
+                  </nav>
+                </li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">VỀ CHÚNG TÔI</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">LIÊN HỆ</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col l-2">
+            <nav>
+              <ul class="header__selector-list">
+                <li class="header__selector-item"><a href="#" class="header__selector-link">
+                    <i class="header__selector-icon fas fa-search"></i></a>
+                  <form action="#" class="header__selector-form-control">
+                    <input type="text" class="header__selector-search-input" placeholder="Bạn đang tìm...">
+                    <input type="submit" class="btn btn--size-s" value="Tìm kiếm">
+                  </form>
+                </li>
+                <li class="header__selector-item"><a href="DangNhap_DangKy.html" class="header__selector-link">
+                    <i class="header__selector-icon fas fa-user"></i></a>
+                  <ul class="header__user-list">
+                    <li class="header__user-item"><a href="#" class="header__user-link">Đăng nhập</a></li>
+                    <li class="header__user-item"><a href="#" class="header__user-link">Đăng ký</a></li>
+                  </ul>
+                </li>
+                <li class="header__selector-item"><a href="GioHang.html" class="header__selector-link">
+                    <i class="header__selector-icon fas fa-shopping-bag">
+                    </i>
+                    <span class="header__selector-number">0</span>
+                  </a>
+
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+      </div>
+
+    </header>
+    <!-- Container -->
+    <div class="container">
+      <div class="grid wide">
+        <div class="row">
+          <div class="col wide l-9">
+            <div class="table-wrap" style="margin-top: 120px;">
+              <table class="contianer__cart-table">
+                <thead>
+                  <tr>
+                    <th class="contianer__cart-table-heading">Mã Danh Mục</th>
+                    <th class="contianer__cart-table-heading">Tên Danh Mục</th>
+
+                    <th class="contianer__cart-table-heading">Xóa</th>
+
+                  </tr>
+                </thead>
+                <tbody class="contianer__cart-table-heading--item--tbody">
+                  <tr >
+                    <td class="contianer__cart-table-heading--item"></td>
+                    <td class="contianer__cart-table-heading--item"> </td>
+
+
+                    <!-- <td class="contianer__cart-table-heading--item"><a href="#"
+                        class="container__cart-table-link--remove"><i class="far fa-trash-alt"></i></a></td> -->
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col wide l-3">
+           <form action="#" class="form-DanhMuc">
+            <div class="row">
+              <div class="col wide l-12">
+                <input type="text" class="form-control-DanhMuc" name="maDanhMuc" placeholder="Mã Danh Mục">
+              </div>
+               <div class="row">
+                <div class="col wide l-12">
+                  <input type="text" class="form-control-DanhMuc-2" name="tenDanhMuc" placeholder="Tên Danh Mục">
+                </div>
+                <div class="row"> <div class="btn_DM-wrap">
+                  <div class="col wide l-6">
+                 
+                    <button  id="btnThem_DM" class="btn_DM">Thêm</>
+                  </div>
+                    <div class="col wide l-6">
+                      <button  id="btnSua_DM" class="btn_DM">Sửa</button>
+                    </div>
+                  </div>
+                  </div>
+                  
+                  </div>
+             </div>
+           </form>
+          </div>
+
+        </div>
+      
+        <div class="row">
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col wide l-12">
+        <div class="container__contact">
+          <i class="container__contact-icon fas fa-phone-square-alt"></i>
+          <p class="container__contact-heading">Hỗ trợ / Mua hàng: <span>0933 800 190</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Container -->
+  <footer class="footer">
+    <div class="grid wide">
+      <div class="row">
+        <div class="col wide l-3">
+          <h3 class="footer__heading">
+            L&L
+          </h3>
+          <p class="footer__text">Logan L&L là Shop thời trang nam chuyên kinh doanh sản phẩm thời trang thời thượng
+            đẳng cấp. Với những mẫu quần áo nam tiêu chi ĐẸP. Cửa hàng quần áo của chúng tôi đang nỗ lực để ngày một
+            hoàn thiện và phát triển, cảm ơn quý khách hàng đã luôn đồng hành cùng chúng tôi.</p>
+          <p class="footer__text">LOGANSTORE - GPKD số: 41E8033735 do UBND quận 5 cấp ngày 14 tháng 8 năm 2017</p>
+          <a href="#" class="footer__img-link"><img src="/assets/img/logo.jpg" alt="logo" class="footer__link-img"></a>
+        </div>
+        <div class="col wide l-3">
+          <h3 class="footer__heading">XEM THÊM CỬA HÀNG</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__text footer__item-link">Giới thiệu</a></li>
+            <li class="footer__item"><a href="#" class="footer__text footer__item-link">Blog</a></li>
+            <li class="footer__item"><a href="#" class="footer__text footer__item-link">Khuyến mãi</a></li>
+            <li class="footer__item"><a href="#" class="footer__text footer__item-link">Xem facebook trên website</a>
+            </li>
+            <li class="footer__item"><a href="#" class="footer__text footer__item-link">Chính sách bảo mật</a></li>
+            <li class="footer__item"><a href="#" class="footer__text footer__item-link">Chính sách đổi trả</a></li>
+            <li class="footer__item"><a href="#" class="footer__text footer__item-link">Chính Sách và Hướng dẫn giao
+                nhận</a></li>
+            <li class="footer__item"><a href="#" class="footer__text footer__item-link">Hướng dẫn thanh toán</a></li>
+            <li class="footer__item"><a href="#" class="footer__text footer__item-link">Hướng dẫn mua hàng</a></li>
+          </ul>
+        </div>
+        <div class="col wide l-3">
+          <h3 class="footer__heading">DANH MỤC SẢN PHẨM</h3>
+        </div>
+        <div class="col wide l-3">
+          <h3 class="footer__heading">LIÊN HỆ</h3>
+          <ul class="footer__list-contact">
+            <li class="footer__item-contact">
+              <div class="footer__item-content">
+                <i class="footer__item-content-icon fas fa-map-marker-alt"></i>
+                <p class="footer__text">520 Phan Văn Trị, P7 , Quận 5 , TP.HCM</p>
+              </div>
+            </li>
+            <li class="footer__item-contact">
+              <div class="footer__item-content">
+                <i class="footer__item-content-icon fas fa-phone"></i>
+                <p class="footer__text"> 0919999325</p>
+              </div>
+            </li>
+            <li class="footer__item-contact">
+              <div class="footer__item-content">
+                <i class="footer__item-content-icon fas fa-envelope"></i>
+                <p class="footer__text"> admin@loganstore.vn</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

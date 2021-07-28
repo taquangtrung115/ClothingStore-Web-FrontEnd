@@ -1,0 +1,36 @@
+{
+  "DanhMuc": [
+    {
+      "tenDanhMuc": "Áo Sơ Mi",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "tenDanhMuc": "Áo Sơ Thun"
+    },
+    {
+      "id": 3,
+      "tenDanhMuc": "Quần Jean"
+    },
+    {
+      "tenDanhMuc": "Quần Bò",
+      "id": 4
+    },
+    {
+      "tenDanhMuc": "Quần Âu",
+      "id": 5
+    },
+    {
+      "tenDanhMuc": "Áo Khoác",
+      "id": 6
+    },
+    {
+      "tenDanhMuc": "Quần Thể Thao",
+      "id": 7
+    },
+    {
+      "tenDanhMuc": "Phụ Kiện Thể Thao",
+      "id": 8
+    }
+  ]
+}
