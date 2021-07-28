@@ -9,7 +9,7 @@
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
 
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -60,7 +60,7 @@
                 </li>
                 <li class="h3"><a href="./Dang_Nhap_Dang_Ky.html"> <span
                             class="header__selector-icon fas fa-user"></span></a></li>
-                <li class="h3 nav__selector-bag"><a href="./Gio_Hang.html"> <span
+                <li class="h3 nav__selector-bag"><a href="./Pages/Gio_Hang.html"> <span
                             class="header__selector-icon fas fa-shopping-bag">
                             <span class="nav__selector-bag-number">0</span>
                         </span></a></li>
@@ -70,99 +70,80 @@
     <!-- Header Menu -->
 
     <!-- Login_SignUp -->
-    <div class="container" style="padding: 150px 0 250px 0px;">
-        <div class="row">
-            <div class="col">
-                <h1 >Thông tin tài khoản</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="row">
-                    <div class="col">
-                        <p class="container__account-login-name">Xin chào, <span>Huy</span></p>
-                    </div>
+    <div class="container" style="padding: 250px 0 250px 0px;">
+        
+<div class="row">
+    <div class="col-lg-6">
+      <div class="conttact__wrapper-address">
+        <ul class="footer__list-contact">
+            <li class="footer__item-contact">
+                <div class="footer__item-content">
+                    <i class="footer__item-content-icon fas fa-map-marker-alt"></i>
+                    <p class="footer__text">520 Phan Văn Trị, P7 , Quận 5 , TP.HCM</p>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <p class="container__account-login-name">Đơn hàng gần nhất</p>
-                    </div>
+            </li>
+            <li class="footer__item-contact">
+                <div class="footer__item-content">
+                    <i class="footer__item-content-icon fas fa-map-marker-alt"></i>
+                    <p class="footer__text">1220 Quang Trung, P12 , Quận Gò Vấp , TP.HCM</p>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <table class="container__account-login-table">
-                            <thead>
-                                <th>Đơn hàng #</th>
-                                <th>Ngày</th>
-                                <th>Chuyển đến</th>
-                                <th>Giá trị đơn hàng</th>
-                                <th>Tình trạng thanh toán</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-
-                                    <td>20/08/2020</td>
-
-                                    <td>HCM</td>
-
-                                    <td>300.000vnd</td>
-
-                                    <td class="content">0</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-
-                                    <td>20/08/2020</td>
-
-                                    <td>HCM</td>
-
-                                    <td>300.000vnd</td>
-
-                                    <td class="content">1</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-
-                                    <td>20/08/2020</td>
-
-                                    <td>HCM</td>
-
-                                    <td>300.000vnd</td>
-
-                                    <td class="content">0</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+            </li>
+            <li class="footer__item-contact">
+                <div class="footer__item-content">
+                    <i class="footer__item-content-icon fas fa-phone"></i>
+                    <p class="footer__text"> 0919999325</p>
                 </div>
-            </div>
-<div class="col-lg-1"></div>
-            <!--  -->
-            <div class="col-lg-3">
-                <div class="row">
-                    <div class="col">
-
-                        <p class="container__account-login-name">Tài khoản của tôi</p>
-
-                    </div>
+            </li>
+            <li class="footer__item-contact">
+                <div class="footer__item-content">
+                    <i class="footer__item-content-icon fas fa-envelope"></i>
+                    <p class="footer__text"> admin@loganstore.vn</p>
                 </div>
-                <div class="row">
-                    <div class="col">
+            </li>
+        </ul>
+      </div>
+     
+    </div>
+    <div class="col-lg-6">
+        <form action="#">
+          <div class="form-group ">
+            <h5 class="text-center">PHẢN HỒI VỚI CHÚNG TÔI</h5>
+          </div>
+          <!--  -->
+          <div class="form-group">
+            <input type="text" class="form-control" id="form__Ho-Ten" placeholder="Họ và Tên" required>
+          </div>
+          <!--  -->
+          <div class="form-group">
+            <input type="tel" class="form-control" id="form_SoDienThoai-SignUp" placeholder="Số điện thoại" required>
+          </div>
+         
+          <!--  -->
+          <!--  -->
+          <div class="form-group">
+            <input type="text" class="form-control" id="form__Email" placeholder="Email" required>
+          </div>
+          <!--  -->
+        
+          <!--  -->
+          <div class="form-group">
+            <input type="text" class="form-control" id="form__Tieu-De" placeholder="Tiêu đề" required>
+          </div>
+          <!--  -->
+          <div class="form-group">
+            <!-- <input type="text" class="form-control" id="form__NoiDung" placeholder="Nội dung" required> -->
+            <textarea placeholder="Nội dung" style="width:100%" required></textarea>
+          </div>
+          <!--  -->
+         <div class="form-group">
+           
+          <button type="submit" class="btn btn-default btn__signIn" style="width: 100%;border:1px solid #ccc">Gửi phản hồi</button>
+         </div>
+        </form>
+      </div>
+</div>
+       
 
-                        <p class="container__account-login-name">Tên tài khoản: <span>Huy Nguyễn</span></p>
-
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <a href="./index.html" class="container__account-item-link">Đăng Xuất</a>
-                    </div>
-                </div>
-            </div>
-            <!--  -->
-        </div>
     </div>
 
     <!-- Login_SignUp -->

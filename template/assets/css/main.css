@@ -6,6 +6,7 @@
 
 .nav a:hover {
   border-bottom: 0.5px solid #666;
+  animation: fadeIn ease-in 0.3s;
 }
 
 .nav-bar__custom-position {
@@ -65,7 +66,7 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
-
+  animation: fadeIn ease-in .6s;
 }
 
 .dropdown-content a:hover {
@@ -123,10 +124,12 @@
 
 .nav__selector-search-input:hover {
   outline: none;
+
 }
 
 .nav__selector-search:hover .nav__selector-search-content {
   display: block;
+  animation: fadeIn ease-in .3s;
 }
 
 .nav__selector-search-btn {
@@ -137,6 +140,7 @@
 
 .nav__selector-search-btn:hover {
   background-color: rgba(0, 0, 0, 0.15);
+  color: white;
 }
 
 /* Selector search */
@@ -535,9 +539,10 @@
 }
 
 /* Button Sign In */
-.btn__signIn{
-  color:#666;
+.btn__signIn {
+  color: #666;
 }
+
 .btn__signIn:hover {
   background-color: #333;
   color: white;
@@ -548,3 +553,41 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+/* About */
+.about__slide-wrapper {
+  transform: translateX(26%);
+}
+
+.about__img-slide {
+  object-fit: cover;
+  max-width: 545px;
+  max-height: 580px;
+}
+
+/* About */
+/* Lien HE */
+.conttact__wrapper-address {
+  transform: translateY(100%);
+
+}
+
+/* Tool Bar product */
+.nav>li>a:focus,
+.nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.nav a:hover {
+  border-bottom: 0.5px solid #666;
+  /* background-color: transparent !important; */
+  animation: fadeIn ease-in 0s;
+}
+
+
+
+
+
+
+/* Tool Bar product */
