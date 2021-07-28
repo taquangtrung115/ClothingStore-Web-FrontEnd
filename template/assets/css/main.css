@@ -684,64 +684,185 @@
   text-decoration: none;
   color: #000;
 }
-.card__detail-btn-item-link--active{
+
+.card__detail-btn-item-link--active {
   border: 1px solid #000;
 }
-.card__detail-btn-item-link--active .card__detail-btn-check-img{
+
+.card__detail-btn-item-link--active .card__detail-btn-check-img {
   /* border: 1px solid #000; */
-  display:block;
+  display: block;
 }
-.card__detail-btn-check-img{
+
+.card__detail-btn-check-img {
   position: absolute;
   right: 0;
-    bottom: 0;
-    display:none;
+  bottom: 0;
+  display: none;
 }
+
 /* Group btn */
-.card__detail-btn-addCart{
-  display:block;
+.card__detail-btn-addCart {
+  display: block;
   text-decoration: none;
   color: #444;
   font-size: 13px;
   margin: 16px 0;
   border: 1px solid #444;
-  width:50%;
+  width: 50%;
   padding: 9px 0;
   transform: translateX(51%);
 }
-.card__detail-btn-addCart span{
-  text-align:center;
+
+.card__detail-btn-addCart span {
+  text-align: center;
   margin: auto 0;
 }
 
-.card__detail-btn-MuaNgay{
-  display:block;
+.card__detail-btn-MuaNgay {
+  display: block;
   text-decoration: none;
   color: #f1f1f1;
   font-size: 13px;
-background-color: #000;
+  background-color: #000;
   border: 1px solid #444;
-  width:50%;
+  width: 50%;
   padding: 9px 0;
   transform: translateX(51%);
   margin-bottom: 16px;
 }
-.card__detail-btn-MuaNgay:hover{
-  color:#f1f1f1;
-  background-color:rgba(36, 36, 36, 0.75);
+
+.card__detail-btn-MuaNgay:hover {
+  color: #f1f1f1;
+  background-color: rgba(36, 36, 36, 0.75);
   -webkit-transition: background-color .2s ease-out;
   -moz-transition: background-color .2s ease-out;
   -o-transition: background-color .2s ease-out;
   transition: background-color .2s ease-out;
 }
-.card__detail-btn-addCart:hover{
-background-color:rgba(0, 0, 0, 0.15);
+
+.card__detail-btn-addCart:hover {
+  background-color: rgba(0, 0, 0, 0.15);
   -webkit-transition: background-color .2s ease-out;
   -moz-transition: background-color .2s ease-out;
   -o-transition: background-color .2s ease-out;
   transition: background-color .2s ease-out;
 }
-.detail__list-content{
+
+.detail__list-content {
   text-align: left;
   font-weight: 100;
+}
+
+
+/* Gio hang */
+.table-cart {
+  border-color: #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.table.table-cart tr {
+  border-color: #eee;
+}
+table td{
+  transform: translateY(30%);
+  color:#666;
+  font-size: 16px;
+  font-weight:100;
+}
+.table.table-cart th {
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+  font-weight: 400;
+  border-color: #eee;
+  padding: 10px 0;
+}
+table td:first-child{
+  transform: translateY(0%);
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.cartItem .product {
+  width: 44%;
+}
+
+.cart__img{
+  object-fit: cover;
+  max-width: 150px;
+  height:auto;
+  max-height: 188px ;
+}
+.cart__detail-wrap{
+line-height:1.4;
+}
+
+
+.container__cart-table-link--remove{
+  color:#666;
+}
+.cart__product-num-wrapper{
+
+}
+/* Gio hang */
+
+.cart__btn {
+  display: block;
+  text-decoration: none;
+  color: #444;
+  font-size: 13px;
+  margin: 16px 0;
+  border: 1px solid #444;
+  width: 25%;
+  padding: 9px 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+}
+.cart__btn:hover{
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #444;
+  -webkit-transition: background-color .2s ease-out;
+  -moz-transition: background-color .2s ease-out;
+  -o-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+}
+/* total */
+.cart__total-wrapper{
+  display:flex;
+  justify-content:space-around;
+  border: 1px solid #ccc;
+  border-radius:3px;
+  padding: 12.5px 0;
+}
+.cart__total_payment{
+  display: block;
+  height:100px;
+  background-color:#FAFAFA;
+  border: 1px solid #ccc;
+}
+.cart__btn-total{
+  margin-left: 30%;
+  border: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  transform: translateY(82%);
+}
+.cart__btn-total:hover{
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #000;
+  -webkit-transition: background-color .2s ease-out;
+  -moz-transition: background-color .2s ease-out;
+  -o-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
 }

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css" />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/quantity-button-master/example/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/font/fonta wesome-free-5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3/css/all.min.css">
+    <link rel="icon" href="./assets/font/themify-icons/SVG/shopping-cart-full.svg" type="image/gif" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <title>Coins </title>
+</head>
+
+<body>
+    <!-- Header Menu -->
+    <nav class="navbar header_menu">
+        <div class="container ">
+            <div class="navbar-header" style="transform: translateY(-35%);">
+                <a class="navbar-brand" href="index.html">
+
+                    <img src="./assets/img/logo.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav navbar-nav  nav-bar__custom-position ">
+                <li class="h4 "><a class="text-dark" href="./index.html">TRANG CHỦ</a></li>
+
+                <li class="dropdown h4"><a href="#">TẤT CẢ SẢN PHẨM</a>
+
+                    <ul class="dropdown-content">
+                        <li class="dropdown-item"><a href="#">ÁO</a></li>
+                        <li class="dropdown-item"><a href="#">QUẦN</a></li>
+                        <li class="dropdown-item"><a href="#">PHỤ KIỆN</a></li>
+                    </ul>
+
+
+                </li>
+                <li class="h4"><a href="./Lien_He.html">LIÊN HỆ</a></li>
+                <li class="h4"><a href="./About.html">VỀ CHÚNG TÔI</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right  nav-bar__custom-position-selector">
+                <li class="h3 nav__selector-search"><a href="#"> <span
+                            class="header__selector-icon fas fa-search"></span></a>
+                    <div class="nav__selector-search-content">
+                        <form action="#" class="nav__selector-search-form-control">
+                            <input type="text" class="nav__selector-search-input" placeholder="Bạn đang tìm...">
+                            <input type="submit" class="nav__selector-search-btn" value="Tìm kiếm">
+                        </form>
+                    </div>
+                </li>
+                <li class="h3"><a href="./Dang_Nhap_Dang_Ky.html"> <span
+                            class="header__selector-icon fas fa-user"></span></a></li>
+                <li class="h3 nav__selector-bag"><a href="./Gio_Hang.html"> <span
+                            class="header__selector-icon fas fa-shopping-bag">
+                            <span class="nav__selector-bag-number">0</span>
+                        </span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header Menu -->
+
+    <!-- Login_SignUp -->
+    <div class="container" style="padding: 150px 0 50px 0px;">
+        <!--  -->
+        <div class="row">
+            <div class="col">
+                <span class="h1">GIỎ HÀNG</span>
+            </div>
+        </div>
+        <!--  -->
+
+        <div class="row " style="margin-top: 40px;">
+            <div class="col-lg-8">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="Cart__table-wrapper">
+                            <form action="#">
+                                <table class="table table-cart">
+                                    <tbody>
+                                        <tr>
+                                            <th>Sản phẩm</th>
+                                            <th></th>
+                                            <th>Số lượng</th>
+                                            <th>Tổng tiền</th>
+                                            <th>Xóa</th>
+                                        </tr>
+                                        <!--  -->
+                                        <tr>
+                                            <!--  -->
+                                            <td>
+                                                <img src="./assets/img/best_seller/best_seller_2.jpg" alt="shirts"
+                                                    class="cart__img">
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <div class="cart__detail-wrap">
+                                                    <span>DirtyCoins Print Cardigan - Cream/Green</span>
+                                                    <br>
+                                                    <span>Size M</span>
+                                                    <br>
+                                                    <span>490.000₫</span>
+                                                </div>
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <form action="#">
+                                                    <fieldset data-quantity style="    margin: -9px 0px 0 -25px;
+                                            ">
+                                                        <legend>Change quantity</legend>
+                                                        <button type="button" title="Down" class="sub">Down</button>
+                                                        <input type="number" name="quantity" pattern="[0-9]+" value="2">
+                                                        <button type="button" title="Up" class="add">Up</button>
+                                                    </fieldset>
+                                                </form>
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <span>4.800.000₫</span>
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <a href="#" class="container__cart-table-link--remove"><i
+                                                        class="far fa-trash-alt"></i></a>
+                                            </td>
+                                            <!--  -->
+                                        </tr>
+                                        <!--  -->
+                                        <!--  -->
+                                        <tr>
+                                            <!--  -->
+                                            <td>
+                                                <img src="./assets/img/best_seller/best_seller_3.jpg" alt="shirts"
+                                                    class="cart__img">
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <div class="cart__detail-wrap">
+                                                    <span>DirtyCoins Print Cardigan - Cream/Green</span>
+                                                    <br>
+                                                    <span>Size M</span>
+                                                    <br>
+                                                    <span>490.000₫</span>
+                                                </div>
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <form action="#">
+                                                    <fieldset data-quantity style="    margin: -9px 0px 0 -25px;
+                                            ">
+                                                        <legend>Change quantity</legend>
+                                                        <button type="button" title="Down" class="sub">Down</button>
+                                                        <input type="number" name="quantity" pattern="[0-9]+" value="2">
+                                                        <button type="button" title="Up" class="add">Up</button>
+                                                    </fieldset>
+                                                </form>
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <span>4.800.000₫</span>
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <a href="#" class="container__cart-table-link--remove"><i
+                                                        class="far fa-trash-alt"></i></a>
+                                            </td>
+                                            <!--  -->
+                                        </tr>
+
+                                        <!--  -->
+                                        <tr>
+                                            <!--  -->
+                                            <td>
+                                                <img src="./assets/img/best_seller/best_seller_1.jpg" alt="shirts"
+                                                    class="cart__img">
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <div class="cart__detail-wrap">
+                                                    <span>DirtyCoins Print Cardigan - Cream/Green</span>
+                                                    <br>
+                                                    <span>Size M</span>
+                                                    <br>
+                                                    <span>490.000₫</span>
+                                                </div>
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <form action="#">
+                                                    <fieldset data-quantity style="    margin: -9px 0px 0 -25px;
+                                            ">
+                                                        <legend>Change quantity</legend>
+                                                        <button type="button" title="Down" class="sub">Down</button>
+                                                        <input type="number" name="quantity" pattern="[0-9]+" value="2">
+                                                        <button type="button" title="Up" class="add">Up</button>
+                                                    </fieldset>
+                                                </form>
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <span>4.800.000₫</span>
+                                            </td>
+                                            <!--  -->
+                                            <td>
+                                                <a href="#" class="container__cart-table-link--remove"><i
+                                                        class="far fa-trash-alt"></i></a>
+                                            </td>
+                                            <!--  -->
+                                        </tr>
+
+
+                                        <!--  -->
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="btn cart__btn" role="button"><span>TIẾP TỤC MUA SẮM</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="cart__total-wrapper">
+                    <span>Tổng tiền:</span>
+                    <span>5.920.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                       <div class="cart__total_payment">
+                        <a href="#" class="btn cart__btn-total" role="button"><span>THANH TOÁN</span></a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="container ">
+            <!-- Heading -->
+            <div class="row">
+                <div class="col">
+                    <p class="h2 text-center font-weight-bold">CÓ THỂ Ở ĐÂY SẼ CÓ SẢN PHẨM BẠN ĐANG TÌM KIẾM
+                    </p>
+                </div>
+            </div>
+            <!-- Heading -->
+
+            <div class="row">
+                <!--  -->
+                <div class="col-lg-4">
+                    <div class="card__product">
+                        <a href="./Chi_Tiet_SP.html" class="card__product-link">
+                            <img src="./assets/img/products/sp2.jpg" alt="T-shirt" class="card__product-img-top">
+                            <ul class="badges__product-list">
+                                <li class="badges__product-item">Best seller</li>
+                            </ul>
+                            <h5 class="card__product-heading">DIRTYCOINS PRINT CARDIGAN - BLACK/PINK</h5>
+                        </a>
+
+                        <div class="card__product-body">
+                            <h6 class="card__product-text">490.000₫</h6>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <div class="col-lg-4">
+                    <div class="card__product">
+                        <a href="./Chi_Tiet_SP.html" class="card__product-link">
+                            <img src="./assets/img/products/sp1.jpg" alt="T-shirt" class="card__product-img-top">
+                            <ul class="badges__product-list">
+                                <li class="badges__product-item">Best seller</li>
+                            </ul>
+                            <h5 class="card__product-heading">BXD - BALL POCKET SHORT (BLACK)
+                            </h5>
+                        </a>
+
+                        <div class="card__product-body">
+                            <h6 class="card__product-text">500.000₫</h6>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-lg-4">
+                    <div class="card__product">
+                        <a href="./Chi_Tiet_SP.html" class="card__product-link">
+                            <img src="./assets/img/products/sp3.jpg" alt="T-shirt" class="card__product-img-top">
+                            <ul class="badges__product-list">
+                                <li class="badges__product-item">Best seller</li>
+                            </ul>
+                            <h5 class="card__product-heading">MULTICOLOR MONOGRAM SHORTS - WHITE</h5>
+                        </a>
+
+                        <div class="card__product-body">
+                            <h6 class="card__product-text">350.000₫</h6>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- Login_SignUp -->
+
+    <!-- CONTACT -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="container__contact">
+                    <i class="container__contact-icon fas fa-phone-square-alt"></i>
+                    <p class="container__contact-heading">Hỗ trợ / Mua hàng: <span>0933 800 190</span></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- CONTACT -->
+    <!-- FOOTER -->
+    <footer class="container ">
+        <div class="col-lg-4">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <h3 class="footer__heading">HỆ THỐNG CỬA HÀNG</h3>
+
+            <ul class="footer__list-contact">
+                <li class="footer__item-contact">
+                    <div class="footer__item-content">
+                        <i class="footer__item-content-icon fas fa-map-marker-alt"></i>
+                        <p class="footer__text">520 Phan Văn Trị, P7 , Quận 5 , TP.HCM</p>
+                    </div>
+                </li>
+                <li class="footer__item-contact">
+                    <div class="footer__item-content">
+                        <i class="footer__item-content-icon fas fa-map-marker-alt"></i>
+                        <p class="footer__text">1220 Quang Trung, P12 , Quận Gò Vấp , TP.HCM</p>
+                    </div>
+                </li>
+                <li class="footer__item-contact">
+                    <div class="footer__item-content">
+                        <i class="footer__item-content-icon fas fa-phone"></i>
+                        <p class="footer__text"> 0919999325</p>
+                    </div>
+                </li>
+                <li class="footer__item-contact">
+                    <div class="footer__item-content">
+                        <i class="footer__item-content-icon fas fa-envelope"></i>
+                        <p class="footer__text"> admin@loganstore.vn</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-4">
+            <h3 class="footer__heading">THEO DÕI CỬA HÀNG</h3>
+            <div class="row">
+                <div class="col">
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item"><a href="#" class="footer__social-link">
+                                <i class="footer__social-icon fab fa-facebook-f"></i>
+                            </a></li>
+                        <li class="footer__social-item"><a href="#" class="footer__social-link">
+                                <i class="footer__social-icon fab fa-instagram"></i>
+                            </a></li>
+                        <li class="footer__social-item"><a href="#" class="footer__social-link">
+                                <i class="footer__social-icon fab fa-tiktok"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=257186769542476"
+                        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+    <!-- COPPY RIGHT -->
+
+    <div class="container-fluid">
+        <div class="row" style="background-color: #f1f1f1;border-top:1px solid #ccc">
+            <div class="col">
+                <h4 class="footer__coppy-right">
+                    Copyright © 2020 Coins Studio. Powered by Team
+                </h4>
+            </div>
+        </div>
+    </div>
+    <!-- COPPY RIGHT -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="module">
+        import QuantityInput from './quantity.js';
+        (function(){
+            let quantities = document.querySelectorAll('[data-quantity]');
+          
+            if (quantities instanceof Node) quantities = [quantities];
+            if (quantities instanceof NodeList) quantities = [].slice.call(quantities);
+            if (quantities instanceof Array) {
+              quantities.forEach(div => (div.quantity = new QuantityInput(div, 'Down', 'Up')));
+            }
+          })();
+      </script>
+    <script>
+
+    </script>
+</body>
+
+</html>
