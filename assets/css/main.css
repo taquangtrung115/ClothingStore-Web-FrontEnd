@@ -31,7 +31,10 @@
 }
 
 /* Header chung */
-
+.product__heading--error:hover {
+  text-decoration:none;
+  
+}
 
 /* Menu Cap 2 */
 .dropdown {

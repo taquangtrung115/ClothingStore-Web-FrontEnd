@@ -1,0 +1,91 @@
+/* Mobile & Tablet  */
+@media (max-width: 1023px) {}
+
+/* Tablet  */
+@media (min-width: 740px) and (max-width:1023px) {
+  .nav__selector-mobile--hide{
+    display: none !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+  /* NAvbar_HEader */
+  .navbar-brand {
+    transform: translateY(-28%);
+  }
+
+  .nav__selector-mobile--hide{
+    display: none !important;
+  }
+
+  .nav_icon-position-selector {
+    display: block !important;
+  }
+
+  .nav_icon-position {
+    position: relative;
+    padding: 10px 10px;
+    font-size: 28px;
+    left: 36%;
+    transition: all 0.35s ease-in-out;
+    background: transparent;
+    border: none;
+    transform: translateY(18px);
+  }
+
+  .nav-bar__custom-position {
+    transform: translate(0%, 0%);
+
+  }
+
+
+  /* More menu cap 2 */
+  .nav_position-MORE-selector {
+    display: block !important;
+  }
+
+  .nav__selector-search-content--More {
+
+    display: block;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: none;
+    border-radius: 3px;
+    right: 10%;
+  }
+
+  /* More menu cap 2 */
+
+
+  /* NAvbar_HEader */
+
+
+  /* Sileder */
+  .slide-wrapper {
+    padding-top: 18%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Sileder */
+
+  /* Thuong Hieu */
+
+.banner__home-product-heading-3{
+  display:none;
+}
+.banner__home-product-heading{
+  display:none;
+}
+.banner__home-product-heading-2{
+  display:none;
+}
+  /* Thuong Hieu */
+
+  /* Footer */
+
+
+  /* Footer */
+}

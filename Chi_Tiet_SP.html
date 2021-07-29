@@ -25,48 +25,75 @@
     <!-- Header Menu -->
     <nav class="navbar header_menu">
         <div class="container ">
-            <div class="navbar-header" style="transform: translateY(-35%);">
-                <a class="navbar-brand" href="index.html">
-
-                    <img src="./assets/img/logo.png" alt="logo">
-                </a>
-            </div>
-            <ul class="nav navbar-nav  nav-bar__custom-position ">
-                <li class="h4 "><a class="text-dark" href="./index.html">TRANG CHỦ</a></li>
-
-                <li class="dropdown h4"><a href="./Chi_Tiet_SP.html">TẤT CẢ SẢN PHẨM</a>
-
-                    <ul class="dropdown-content">
-                        <li class="dropdown-item"><a href="./Chi_Tiet_SP.html">ÁO</a></li>
-                        <li class="dropdown-item"><a href="./Chi_Tiet_SP.html">QUẦN</a></li>
-                        <li class="dropdown-item"><a href="./Chi_Tiet_SP.html">PHỤ KIỆN</a></li>
-                    </ul>
-
-
+          <div class="navbar-header" style="transform: translateY(-35%);">
+            <a class="navbar-brand" href="index.html">
+    
+              <img src="./assets/img/logo.png" alt="logo">
+            </a>
+            <button type="button" class="nav_icon-position-selector nav_icon-position fas fa-bars " data-toggle="collapse"
+              data-target="#myNavbar" style="display:none">
+            </button>
+          </div>
+          <ul class="nav navbar-nav  nav-bar__custom-position collapse navbar-collapse " id="myNavbar">
+            <li class="h4 "><a class="text-dark" href="#">TRANG CHỦ</a></li>
+    
+            <li class="dropdown h4"><a href="#">TẤT CẢ SẢN PHẨM</a>
+    
+              <ul class="dropdown-content">
+                <li class="dropdown-item"><a href="./Danh_Muc_SP.html">ÁO</a></li>
+                <li class="dropdown-item"><a href="./Danh_Muc_SP.html">QUẦN</a></li>
+                <li class="dropdown-item"><a href="./Danh_Muc_SP.html">PHỤ KIỆN</a></li>
+              </ul>
+    
+    
+            </li>
+            <li class="h4"><a href="./Lien_He.html">LIÊN HỆ</a></li>
+            <li class="h4"><a href="./About.html">VỀ CHÚNG TÔI</a></li>
+            <li class="dropdown h4 nav_position-MORE-selector" style="display:none">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+    
+                  <div class="nav__selector-search-content--More">
+                    <form action="./Tim_Kiem.html" class="nav__selector-search-form-control">
+                      <input type="text" class="nav__selector-search-input" placeholder="Bạn đang tìm...">
+                      <input type="submit" class="nav__selector-search-btn" value="Tìm kiếm">
+                    </form>
+                  </div>
                 </li>
-                <li class="h4"><a href="./Lien_He.html">LIÊN HỆ</a></li>
-                <li class="h4"><a href="./About.html">VỀ CHÚNG TÔI</a></li>
-
-            </ul>
-            <ul class="nav navbar-nav navbar-right  nav-bar__custom-position-selector">
-                <li class="h3 nav__selector-search"><a href="./Chi_Tiet_SP.html"> <span
-                            class="header__selector-icon fas fa-search"></span></a>
-                    <div class="nav__selector-search-content">
-                        <form action="./Tim_Kiem.html" class="nav__selector-search-form-control">
-                            <input type="text" class="nav__selector-search-input" placeholder="Bạn đang tìm...">
-                            <input type="submit" class="nav__selector-search-btn" value="Tìm kiếm">
-                        </form>
-                    </div>
+                <li>
+                  <a href="./Dang_Nhap_Dang_Ky.html"> <span class="header__selector-icon fas fa-user">&nbsp; TÀI KHOẢN</span></a>
                 </li>
-                <li class="h3"><a href="./Dang_Nhap_Dang_Ky.html"> <span
-                            class="header__selector-icon fas fa-user"></span></a></li>
-                <li class="h3 nav__selector-bag"><a href="./Gio_Hang.html"> <span
-                            class="header__selector-icon fas fa-shopping-bag">
-                            <span class="nav__selector-bag-number">0</span>
-                        </span></a></li>
-            </ul>
+                <li> <a href="./Gio_Hang.html"> <span class="header__selector-icon fas fa-shopping-bag">
+    
+                  &nbsp; GIỎ HÀNG</span></a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right  nav-bar__custom-position-selector nav__selector-mobile--hide">
+            <li class="h3 nav__selector-search">
+              <a href="#"> <span class="header__selector-icon fas fa-search"></span></a>
+              <div class="nav__selector-search-content">
+                <form action="./Tim_Kiem.html" class="nav__selector-search-form-control">
+                  <input type="text" class="nav__selector-search-input" placeholder="Bạn đang tìm...">
+                  <input type="submit" class="nav__selector-search-btn" value="Tìm kiếm">
+                </form>
+              </div>
+            </li>
+            <li class="h3">
+              <a href="./Dang_Nhap_Dang_Ky.html"> <span class="header__selector-icon fas fa-user"></span></a>
+            </li>
+            <li class="h3 nav__selector-bag">
+              <a href="./Gio_Hang.html"> <span class="header__selector-icon fas fa-shopping-bag">
+                  <span class="nav__selector-bag-number">0</span>
+                </span></a>
+            </li>
+    
+          </ul>
+    
         </div>
-    </nav>
+      </nav>
     <!-- Header Menu -->
 
     <!-- Login_SignUp -->

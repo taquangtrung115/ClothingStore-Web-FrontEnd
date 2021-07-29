@@ -10,8 +10,8 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/base.css" />
-
   <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="./assets/font/fonta wesome-free-5.15.3/css/all.min.css" rel="stylesheet" />
@@ -30,8 +30,11 @@
 
           <img src="./assets/img/logo.png" alt="logo">
         </a>
+        <button type="button" class="nav_icon-position-selector nav_icon-position fas fa-bars " data-toggle="collapse"
+          data-target="#myNavbar" style="display:none">
+        </button>
       </div>
-      <ul class="nav navbar-nav  nav-bar__custom-position ">
+      <ul class="nav navbar-nav  nav-bar__custom-position collapse navbar-collapse " id="myNavbar">
         <li class="h4 "><a class="text-dark" href="#">TRANG CHỦ</a></li>
 
         <li class="dropdown h4"><a href="#">TẤT CẢ SẢN PHẨM</a>
@@ -46,10 +49,31 @@
         </li>
         <li class="h4"><a href="./Lien_He.html">LIÊN HỆ</a></li>
         <li class="h4"><a href="./About.html">VỀ CHÚNG TÔI</a></li>
+        <li class="dropdown h4 nav_position-MORE-selector" style="display:none">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li>
 
+              <div class="nav__selector-search-content--More">
+                <form action="./Tim_Kiem.html" class="nav__selector-search-form-control">
+                  <input type="text" class="nav__selector-search-input" placeholder="Bạn đang tìm...">
+                  <input type="submit" class="nav__selector-search-btn" value="Tìm kiếm">
+                </form>
+              </div>
+            </li>
+            <li>
+              <a href="./Dang_Nhap_Dang_Ky.html"> <span class="header__selector-icon fas fa-user">&nbsp; TÀI KHOẢN</span></a>
+            </li>
+            <li> <a href="./Gio_Hang.html"> <span class="header__selector-icon fas fa-shopping-bag">
+
+              &nbsp; GIỎ HÀNG</span></a></li>
+          </ul>
+        </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right  nav-bar__custom-position-selector">
-        <li class="h3 nav__selector-search"><a href="#"> <span class="header__selector-icon fas fa-search"></span></a>
+      <ul class="nav navbar-nav navbar-right  nav-bar__custom-position-selector nav__selector-mobile--hide">
+        <li class="h3 nav__selector-search">
+          <a href="#"> <span class="header__selector-icon fas fa-search"></span></a>
           <div class="nav__selector-search-content">
             <form action="./Tim_Kiem.html" class="nav__selector-search-form-control">
               <input type="text" class="nav__selector-search-input" placeholder="Bạn đang tìm...">
@@ -57,11 +81,17 @@
             </form>
           </div>
         </li>
-        <li class="h3"><a href="./Dang_Nhap_Dang_Ky.html"> <span class="header__selector-icon fas fa-user"></span></a></li>
-        <li class="h3 nav__selector-bag"><a href="./Gio_Hang.html"> <span class="header__selector-icon fas fa-shopping-bag">
+        <li class="h3">
+          <a href="./Dang_Nhap_Dang_Ky.html"> <span class="header__selector-icon fas fa-user"></span></a>
+        </li>
+        <li class="h3 nav__selector-bag">
+          <a href="./Gio_Hang.html"> <span class="header__selector-icon fas fa-shopping-bag">
               <span class="nav__selector-bag-number">0</span>
-            </span></a></li>
+            </span></a>
+        </li>
+
       </ul>
+
     </div>
   </nav>
   <!-- Header Menu -->
@@ -116,7 +146,8 @@
     <!-- Heading -->
     <div class="row">
       <div class="col">
-        <p class="h2 text-center font-weight-bold">BEST SELLER</p>
+        <p class="h2 text-center font-weight-bold product__heading--error" style="color:#000;border:none">BEST SELLER
+        </p>
       </div>
     </div>
     <!-- Heading -->
@@ -528,7 +559,7 @@
   </footer>
   <!-- FOOTER -->
   <!-- COPPY RIGHT -->
- 
+
   <div class="container-fluid">
     <div class="row" style="background-color: #f1f1f1;border-top:1px solid #ccc">
       <div class="col">
